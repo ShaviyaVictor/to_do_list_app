@@ -27,6 +27,13 @@ const App = () => {
   
   // Add the deleteToDo code here
 
+  function deleteTodo(id) {
+
+    let updatedTodos = [...todos].filter((todo) =>
+    todo.id !== id);
+    setTodos(updatedTodos);
+
+  }
   
   // Add the toggleComplete code here
 
