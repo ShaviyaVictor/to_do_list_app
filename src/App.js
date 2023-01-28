@@ -102,7 +102,7 @@ const App = () => {
                   </button>
                 )}
     
-                <button onClick={() => deleteTodo(todo.id)}>
+                <button id='danger' onClick={() => deleteTodo(todo.id)}>
                   Delete
                 </button>
               </div>

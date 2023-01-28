@@ -49,6 +49,12 @@ button:active {
 button:focus {
   outline: 0;
 }
+button#danger:hover {
+  background-color: #ff9999;
+}
+button#danger:active {
+  background-color: #e50000;
+}
 input[type='text'] { font-size: 20px; font-family: monospace; }
 .todo input[type="checkbox"] {
   transform: scale(1.8) translateY(1px);
