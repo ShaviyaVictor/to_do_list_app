@@ -1,8 +1,14 @@
 import React from "react";
 import "./App.css";
 const App = () => {
+
+  // States
+
   const [todos, setTodos] = React.useState([]);
   const [todo, setTodo] = React.useState("");
+
+  const [todoEditing, setTodoEditing] = React.useState(null);
+  const [editingText, setEditingText] = React.useState("");
   
   // Add the handlesubmit code here
 
