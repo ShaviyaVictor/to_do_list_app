@@ -75,6 +75,7 @@ return(
   <div className="App">
     
     <h1>Todo List</h1>
+
     <form onSubmit={handleSubmit}>
       <input 
         type ="text" 
@@ -86,26 +87,35 @@ return(
       <button type ="submit">Add Todo</button>
     </form>
 
-    {todos.map((todo) => 
+    {todos.map((todo) => ( 
+
       <div className="todo" key={todo.id}>
-        <div>{todo.text}</div>
-      </div>)}     
+        <div className='todo-text'>
 
-    
-    <input type="checkbox"
-      id="completed"
-      className='todo'
-      checked={todo.completed}
-      onChange={() => toggleComplete(todo.id)}
-    /> 
+          <input type="checkbox"
+            id="completed"
+            className='todo'
+            checked={todo.completed}
+            onChange={() => toggleComplete(todo.id)}
+          />
 
-    <button className='todo' onClick={() =>
-      deleteTodo(todo.id)}>
-        Delete
-    </button>
+          <div>{todo.text}</div>
+
+        </div>
+        
+        <button className='todo' onClick={() =>
+            deleteTodo(todo.id)}>
+              Delete
+          </button>
+
+      </div>       
+
+    ))};     
 
 
   </div>
 );
+
 };
+
 export default App;
