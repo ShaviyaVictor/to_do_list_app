@@ -14,7 +14,7 @@ body {
 form, .todo {
   border: 1px solid rgb(15, 26, 61);
   padding: 10px 20px;
-  margin-bottom: 10px;
+  margin: 20px;
 }
 form {
   display: flex;
