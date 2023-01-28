@@ -45,22 +45,27 @@ return(
   <div className="App">
     
     <h1>Todo List</h1>
-      <form onSubmit={handleSubmit}>
-        <input 
+    <form onSubmit={handleSubmit}>
+      <input 
         type ="text" 
         align ="right" 
         onChange={(e) => setTodo(e.target.value)}
         placeholder='Add a new task...'
         value={todo}
-        />
-        <button type ="submit">Add Todo</button>
-      </form>
+      />
+      <button type ="submit">Add Todo</button>
+    </form>
 
-      {todos.map((todo) => 
-        <div className="todo" key={todo.id}>
-          <div>{todo.text}</div>
-        </div>)}
-      
+    {todos.map((todo) => 
+      <div className="todo" key={todo.id}>
+        <div>{todo.text}</div>
+      </div>)}      
+
+    <button className='todo' onClick={() =>
+      deleteTodo(todo.id)}>
+        Delete
+    </button>
+
   </div>
 );
 };
