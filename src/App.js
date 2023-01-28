@@ -37,6 +37,17 @@ const App = () => {
   
   // Add the toggleComplete code here
 
+  function toggleComplete(id) {
+
+    let updatedTodos = [...todos].map((todo) => {
+      if (todo.id === id) {
+        todo.completed = !todo.completed;
+      }
+      return todo;
+    });
+    setTodos(updatedTodos);
+
+  }
   
   // Add the submitEdits code here
 
