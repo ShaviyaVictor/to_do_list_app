@@ -17,13 +17,13 @@ const App = () => {
 
   
 return(
-<div className ="App">
-<h1>Todo List</h1>
-<form>
-<input type ="text" align ="right" />
-<button type ="submit">Add Todo</button>
-</form>
-</div>
+  <div className ="App">
+    <h1>Todo List</h1>
+    <form>
+      <input type ="text" align ="right" />
+      <button type ="submit">Add Todo</button>
+    </form>
+  </div>
 );
 };
 export default App;
