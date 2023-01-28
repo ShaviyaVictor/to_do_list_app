@@ -1,3 +1,43 @@
+# to_do_list_app
+We will be building a TODO list application using React components. Let's discover how to create, view, delete, complete, modify and save to-do lists.
+          
+<img src="#" width="600" height="350" alt="">             
+
+## Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)        
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/css)             
+* [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)         
+* [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)              
+* [React](https://reactjs.org/docs/getting-started.html)         
+* [Course](https://www.udemy.com/course/end-to-end-react-with-prisma-2/)         
+* [Github](https://github.com/ShaviyaVictor/shaviya)
+
+## License
+
+This project is licensed under the [Apache License 2.0](https://github.com/ShaviyaVictor/custom_setup_template/blob/main/LICENSE).           
+
+## Resources
+- [Lab](https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-CD0210EN-SkillsNetwork/labs/ToDo_List_React_Application/Hands-on_lab_-_React_todo_list_application.md.html)          
+
+
+## Acknowledgments
+
+* @shaviyavictor
+
+### Author
+
+* **Victor Shaviya**        
+  - [BioLink](https://bio.link/shaviya)       
+  - [LinkedIn](https://www.linkedin.com/in/ShaviyaVictor/)          
+  - [Instagram](https://www.instagram.com/shaviyavictor/)        
+  - [Twitter](https://twitter.com/ShaviyaVictor)        
+  
+  
+**© Victor Shaviya**.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
