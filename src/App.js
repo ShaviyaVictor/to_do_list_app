@@ -57,6 +57,19 @@ const App = () => {
   
   // Add the submitEdits code here
 
+  function submitEdits(id) {
+
+    const updatedTodos = [...todos].map((todo) => {
+      if (todo.id === id) {
+        todo.text = editingText;
+      }
+      return todo;
+    });
+    setTodos(updatedTodos);
+    setTodoEditing(null);
+
+  }
+
   
 return(
   <div className="App">
