@@ -1,7 +1,7 @@
 # to_do_list_app
 We will be building a TODO list application using React components. Let's discover how to create, view, delete, complete, modify and save to-do lists.
           
-<img src="#" width="600" height="350" alt="">             
+<img src="https://github.com/ShaviyaVictor/to_do_list_app/blob/main/resources/Screenshot%20from%202023-01-29%2008-37-42.png?raw=true" width="200" height="350" alt="react_to_do_list_app">             
 
 ## Built With
 
